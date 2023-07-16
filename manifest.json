@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "Glagolitic Web",
+  "version": "1.0",
+  "description": "Replaces latin characters with their corresponding glagolitic characters.",
+  "permissions": ["<all_urls>"],
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "commands": {
+    "log_hello_world": {
+      "suggested_key": {
+        "default": "Alt+Shift+8"
+      },
+      "description": "Toggles between latin and glagolitic."
+    }
+  }
+}
